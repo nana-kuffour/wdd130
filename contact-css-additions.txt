@@ -1,0 +1,70 @@
+
+
+/* CONTACT PAGE */
+
+.contact-info,
+.employees,
+.contact-form{
+    padding:30px;
+}
+
+.contact-info{
+    text-align:center;
+}
+
+.contact-info iframe{
+    width:100%;
+    max-width:700px;
+    height:300px;
+    margin-top:20px;
+}
+
+.employee-gallery{
+    display:flex;
+    gap:20px;
+    justify-content:space-between;
+}
+
+.employee-gallery figure{
+    flex:1;
+    text-align:center;
+}
+
+.employee-gallery img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+form{
+    max-width:700px;
+    margin:0 auto;
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+
+input,
+textarea,
+button{
+    padding:10px;
+    font-size:1rem;
+}
+
+.checkbox{
+    display:flex;
+    gap:10px;
+    align-items:center;
+}
+
+button{
+    background:#0b7285;
+    color:white;
+    border:none;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+button:hover{
+    opacity:0.9;
+}
